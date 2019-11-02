@@ -2,7 +2,7 @@ def addition (a, b):
     res = a + b
     return res
 
-def subtration (a, b):
+def subtraction (a, b):
     res = a - b
     return res
     
@@ -38,5 +38,3 @@ while True:
         result = division(op1, op2)
 
     print('Result:', result)
-    
-
