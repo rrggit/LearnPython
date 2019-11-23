@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup # pip install beautifulsoup4
 import requests # pip install requests
-import sys
+import shutil
+from threading import Thread
 
 username = "codekul"
 url = "http://www.twitter.com/" + username
